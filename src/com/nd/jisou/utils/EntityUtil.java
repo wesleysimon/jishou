@@ -7,11 +7,13 @@ import android.database.Cursor;
 
 /**
  * 实体类工具
+ * 
  * @author wujy
  */
 public class EntityUtil {
 	/**
 	 * 实体类转化为ContentValues
+	 * 
 	 * @param bean
 	 * @return
 	 */
@@ -50,14 +52,14 @@ public class EntityUtil {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-
 		}
 
 		return contentValues;
 	}
 
 	/**
-	 * Cursor转化为实体
+	 * 将Cursor对象转化为具体实体
+	 * 
 	 * @param cursor
 	 * @param cls
 	 * @return
